@@ -70,33 +70,29 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Protocol Classes.lvlib" Type="Library" URL="../Protocol Classes.lvlib"/>
+		<Item Name="Protections.lvlib" Type="Library" URL="../Protections.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Protocols" Type="Packed Library">
+			<Item Name="Protections" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{063AA347-2B57-4F45-90E9-3516C71EE0D4}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Protocols</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7E4D3A9E-FACC-4222-AAEC-7EC0102AE4A8}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Protections</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Instrument Addon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">..</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{553854C3-560A-4C87-A5BD-43CBD915B5C4}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{2E21FA60-367A-4BE4-ADE6-CE389E9CA37D}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap</Property>
-				<Property Name="Bld_version.build" Type="Int">49</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Protocols.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Pharlap/Protocols.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Protections.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Pharlap/NI_AB_PROJECTNAME.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -104,10 +100,10 @@
 				<Property Name="Destination[1].path" Type="Path">/Pharlap</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BEAC041A-7396-4F83-A52B-1085C2E062D6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2C49332D-2E64-4BC8-B20E-87B26B387376}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - Pharlap/Protocol Classes.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - Pharlap/Protections.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -117,12 +113,12 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Protocols</Property>
-				<Property Name="TgtF_internalName" Type="Str">Protocols</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Protections</Property>
+				<Property Name="TgtF_internalName" Type="Str">Protections</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">Protocols</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{3BF251A9-F71C-42CA-B682-78754F12E586}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Protocols.lvlibp</Property>
+				<Property Name="TgtF_productName" Type="Str">Protections</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E8EC2AAA-B989-4C05-B838-9F688B0CF381}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Protections.lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -176,34 +172,30 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Protocol Classes.lvlib" Type="Library" URL="../Protocol Classes.lvlib"/>
+		<Item Name="Protections.lvlib" Type="Library" URL="../Protections.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Protocols" Type="Packed Library">
+			<Item Name="Protections" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{004DA2AF-6C7A-46D8-8F14-DC5D12C29FD3}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Protocols</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6B43023C-1BB4-409B-B01D-52A14D430266}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Protections</Property>
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Instrument Addon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">..</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{A0A3117C-E8F8-42CC-A86A-0DF321BE8904}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{179CE975-5DF2-4EEF-A98D-8C8AFDF80260}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Protocols.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/Protocols.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Protections.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/NI_AB_PROJECTNAME.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -211,10 +203,10 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4AB0DC96-12AA-4DA8-AE11-68A91CD1533F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6FE1501B-EA5D-4C41-80CD-7CFD14553D35}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Protocol Classes.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Protections.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -222,12 +214,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Protocols</Property>
-				<Property Name="TgtF_internalName" Type="Str">Protocols</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Protections</Property>
+				<Property Name="TgtF_internalName" Type="Str">Protections</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
-				<Property Name="TgtF_productName" Type="Str">Protocols</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{FBF400E3-8B5C-4C08-9CBB-8B3772DDBED8}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Protocols.lvlibp</Property>
+				<Property Name="TgtF_productName" Type="Str">Protections</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{9055BD55-C133-4BD2-9407-BF22B8956CEF}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Protections.lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -282,33 +274,29 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Protocol Classes.lvlib" Type="Library" URL="../Protocol Classes.lvlib"/>
+		<Item Name="Protections.lvlib" Type="Library" URL="../Protections.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Protocols" Type="Packed Library">
+			<Item Name="Protections" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{57E594C3-0A8A-4345-9080-9B6EBE075976}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Protocols</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{4B091106-9582-448F-836B-C39B5AA4470A}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Protections</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Instrument Addon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">..</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{690662D9-38D0-4A24-9F72-082012CE97BB}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5A8626D9-45C8-45EB-A514-0F0A20D94C56}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Protocols.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Protocols.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Protections.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_x64/NI_AB_PROJECTNAME.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -316,10 +304,10 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C29D51B9-FAD3-46E3-8C51-6DCC009BA541}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3D05F310-B9BA-464F-996B-B06D9DD2B80A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protocol Classes.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protections.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -327,12 +315,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Protocols</Property>
-				<Property Name="TgtF_internalName" Type="Str">Protocols</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Protections</Property>
+				<Property Name="TgtF_internalName" Type="Str">Protections</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
-				<Property Name="TgtF_productName" Type="Str">Protocols</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{FFFFB088-DC77-43DB-9D58-C297BDD8F252}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Protocols.lvlibp</Property>
+				<Property Name="TgtF_productName" Type="Str">Protections</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{5F71FD09-952A-48E5-80C6-A27B722A3258}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Protections.lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>
