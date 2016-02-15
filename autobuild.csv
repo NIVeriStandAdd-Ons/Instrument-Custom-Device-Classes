@@ -1,6 +1,6 @@
-Source\Classes\Protections\Protections.lvproj	RT PXI Target - Pharlap	Protections
-Source\Classes\Protocols\Protocol Classes.lvproj	RT PXI Target - Pharlap	Protocols
-Source\Classes\Protections\Protections.lvproj	RT CompactRIO Target - Linux ARM	Protections
-Source\Classes\Protocols\Protocol Classes.lvproj	RT CompactRIO Target - Linux ARM	Protocols
-Source\Classes\Protections\Protections.lvproj	RT CompactRIO Target - Linux x64	Protections
-Source\Classes\Protocols\Protocol Classes.lvproj	RT CompactRIO Target - Linux x64	Protocols
+Protections\Protections.lvproj	RT PXI Target - Pharlap	Protections
+Protocols\Protocol Classes.lvproj	RT PXI Target - Pharlap	Protocols
+Protections\Protections.lvproj	RT CompactRIO Target - Linux ARM	Protections
+Protocols\Protocol Classes.lvproj	RT CompactRIO Target - Linux ARM	Protocols
+Protections\Protections.lvproj	RT CompactRIO Target - Linux x64	Protections
+Protocols\Protocol Classes.lvproj	RT CompactRIO Target - Linux x64	Protocols
