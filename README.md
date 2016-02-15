@@ -1,7 +1,7 @@
-Instrument-Custom-Device
+Instrument-Custom-Device-Classes
 ========================
 
-This addon allows the user to define instrument commands generically.  NI-VISA(GPIB, RS232, RS485, RS422), TCP, UDP, AK TCP, and AK RS232 are supported base protocols. The communication structure should be command response.  Meaning that the instrument doesn't initiate any of the communications.  Communication rates should be for 10s of Hz.
+These classes are used in the Instrument Custom Device to handle the various instrument protocols and protection schemes over those protocols.
 
 ### LabVIEW Version ###
 
