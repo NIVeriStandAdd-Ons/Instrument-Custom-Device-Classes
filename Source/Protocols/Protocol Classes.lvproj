@@ -93,7 +93,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{553854C3-560A-4C87-A5BD-43CBD915B5C4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap</Property>
-				<Property Name="Bld_version.build" Type="Int">50</Property>
+				<Property Name="Bld_version.build" Type="Int">51</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protocols.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Protocols.lvlibp</Property>
