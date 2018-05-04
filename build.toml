@@ -1,0 +1,21 @@
+[archive]
+build_output_dir = 'Custom Device Source'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\temp\vs_cds\instrument_addon'
+
+[projects.protections]
+path = 'Source\Protections\Protections.lvproj'
+
+[projects.protocols]
+path = 'Source\Protocols\Protocols.lvproj'
+
+[[build.steps]]
+name = 'Protections'
+type = 'lvBuildSpecAllTargets'
+project = '{protections}'
+build_spec = 'Protections'
+
+[[build.steps]]
+name = 'Protocols'
+type = 'lvBuildSpecAllTargets'
+project = '{protocols}'
+build_spec = 'Protocols'
