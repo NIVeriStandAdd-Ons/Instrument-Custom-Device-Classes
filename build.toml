@@ -1,5 +1,5 @@
 [archive]
-build_output_dir = 'Custom Device Source'
+build_output_dir = 'Source'
 archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\temp\vs_cds\instrument_addon'
 
 [projects.protections]
