@@ -14,6 +14,9 @@
 		<Item Name="Clear Warnings.vi" Type="VI" URL="../Protocol Parent/Clear Warnings.vi"/>
 		<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocol Parent/Protocol Parent.lvclass"/>
 	</Item>
+	<Item Name="RS232 to GPIB ConvBox" Type="Folder">
+		<Item Name="RS232 to GPIB ConvBox.lvclass" Type="LVClass" URL="../RS232 to GPIB ConvBox/RS232 to GPIB ConvBox.lvclass"/>
+	</Item>
 	<Item Name="RSxxx" Type="Folder">
 		<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../RS-xxx/RS-xxx.lvclass"/>
 	</Item>

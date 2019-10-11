@@ -75,10 +75,19 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 			</Item>
+			<Item Name="CheckListener ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/CheckListener ConvBox.vi"/>
+			<Item Name="Close ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Close ConvBox.vi"/>
+			<Item Name="Init ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Init ConvBox.vi"/>
+			<Item Name="Read ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Read ConvBox.vi"/>
+			<Item Name="Status ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Status ConvBox.vi"/>
+			<Item Name="Write ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Write ConvBox.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Protocols" Type="Packed Library">
@@ -93,7 +102,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{553854C3-560A-4C87-A5BD-43CBD915B5C4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap</Property>
-				<Property Name="Bld_version.build" Type="Int">54</Property>
+				<Property Name="Bld_version.build" Type="Int">56</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protocols.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Protocols.lvlibp</Property>
@@ -181,10 +190,19 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 			</Item>
+			<Item Name="CheckListener ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/CheckListener ConvBox.vi"/>
+			<Item Name="Close ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Close ConvBox.vi"/>
+			<Item Name="Init ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Init ConvBox.vi"/>
+			<Item Name="Read ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Read ConvBox.vi"/>
+			<Item Name="Status ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Status ConvBox.vi"/>
+			<Item Name="Write ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Write ConvBox.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Protocols" Type="Packed Library">
@@ -286,10 +304,19 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 			</Item>
+			<Item Name="CheckListener ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/CheckListener ConvBox.vi"/>
+			<Item Name="Close ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Close ConvBox.vi"/>
+			<Item Name="Init ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Init ConvBox.vi"/>
+			<Item Name="Read ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Read ConvBox.vi"/>
+			<Item Name="Status ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Status ConvBox.vi"/>
+			<Item Name="Write ConvBox.vi" Type="VI" URL="../RS232 to GPIB ConvBox/Methods/SubVIs/Write ConvBox.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Protocols" Type="Packed Library">
