@@ -18,7 +18,7 @@
 		<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../RS-xxx/RS-xxx.lvclass"/>
 	</Item>
 	<Item Name="RSxxx to GPIB ConvBox" Type="Folder">
-		<Item Name="RSxxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../RS232 to GPIB ConvBox/RSxxx to GPIB ConvBox.lvclass"/>
+		<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
 	</Item>
 	<Item Name="TCP" Type="Folder">
 		<Item Name="TCP.lvclass" Type="LVClass" URL="../TCP/TCP.lvclass"/>
