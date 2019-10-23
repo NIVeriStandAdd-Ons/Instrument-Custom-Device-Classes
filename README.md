@@ -5,7 +5,7 @@ These classes are used in the Instrument Custom Device to handle the various ins
 
 ### LabVIEW Version ###
 
-LabVIEW 2015.
+LabVIEW 2019.
 
 ### Built Availability ###
 
@@ -21,8 +21,8 @@ Addon is intended for slower rates, though the addon supports decimation so the 
 
 ### Dependencies ###
 
-NI VISA 14.0 or later
-NI Serial 14.0 or later
+NI VISA 19.0 or later
+NI Serial 19.0 or later
 OpenG LabVIEW Data Library 4.2.0.21 or later
 OpenG Error Library 4.2.0.23 or later
 NI STM 2.1.0.2 (ONLY)
