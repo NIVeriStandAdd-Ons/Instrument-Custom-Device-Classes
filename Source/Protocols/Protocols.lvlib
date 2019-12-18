@@ -11,14 +11,10 @@
 		<Item Name="Format AK Response.vi" Type="VI" URL="../AK/Format AK Response.vi"/>
 	</Item>
 	<Item Name="Protocol Parent" Type="Folder">
-		<Item Name="Clear Warnings.vi" Type="VI" URL="../Protocol Parent/Clear Warnings.vi"/>
 		<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocol Parent/Protocol Parent.lvclass"/>
 	</Item>
 	<Item Name="RSxxx" Type="Folder">
 		<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../RS-xxx/RS-xxx.lvclass"/>
-	</Item>
-	<Item Name="RSxxx to GPIB ConvBox" Type="Folder">
-		<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
 	</Item>
 	<Item Name="TCP" Type="Folder">
 		<Item Name="TCP.lvclass" Type="LVClass" URL="../TCP/TCP.lvclass"/>
