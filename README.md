@@ -1,4 +1,4 @@
-Archieved.
+Archived.
 
 Latest: https://github.com/ni/niveristand-instrument-addon-classes
 
