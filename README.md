@@ -1,3 +1,7 @@
+Archieved.
+
+Latest: https://github.com/ni/niveristand-instrument-addon-classes
+
 Instrument-Custom-Device-Classes
 ========================
 
